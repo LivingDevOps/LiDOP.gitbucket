@@ -24,7 +24,7 @@ steps:
   displayName: 'docker push'
   
 - script: docker run --rm \
-    -v /path/to/readme.md:/README.md \
+    -v ./readme.md:/data/README.md \
     -e DOCKERHUB_USERNAME=$(user) \
     -e DOCKERHUB_PASSWORD=$(password) \
     -e DOCKERHUB_REPO_PREFIX=livingdevops \
