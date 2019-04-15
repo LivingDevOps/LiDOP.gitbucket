@@ -29,7 +29,7 @@ steps:
     -e DOCKERHUB_PASSWORD=$(password) \
     -e DOCKERHUB_REPO_PREFIX=livingdevops \
     -e DOCKERHUB_REPO_NAME=lidop.gitbucket \
-     sheogorath/readme-to-hub
+     sheogorath/readme-to-dockerhub
   displayName: 'push readme to dockerhub'
   
   
